@@ -1,0 +1,15 @@
+执行:
+gcc -v -E -x c++ -
+最下面:
+
+#include "..." search starts here:
+#include <...> search starts here:
+ E:/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++
+ E:/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32
+ E:/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward
+ E:/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include
+ E:/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed
+ E:/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include
+End of search list.
+
+c_cpp_properties.json里面设置 includePath
